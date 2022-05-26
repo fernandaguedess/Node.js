@@ -3,4 +3,8 @@
     "passport": "^0.6.0",
     "rootpath": "^0.1.2"
   }
+  
+  ,"scripts": {
+    "test" : "jest"
+  }
 }
