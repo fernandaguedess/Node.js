@@ -13,7 +13,7 @@ function toRoman(num) {
     const digits = (num+'').split(''); //transforma em string e divide cada algarismo do num p string
     for (item of table) {
         const i = digits.pop();
-        result.push(item[i]) //!
+        result.unshift(item[i]) //!
     }
     return result.join('')
 }
