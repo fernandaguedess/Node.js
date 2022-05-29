@@ -1,6 +1,10 @@
 /*roman.js -- converts arabic numbers
 to roman and vice-versa*/
 
+
+
+//{zero:0}
+
 const table = [
     ['','I','II','III','IV','V','VI','VII','VIII','IX'],
     ['','X','XX','XXX','XL','L','LX','LXX','LXXX','XC'],
