@@ -1,4 +1,0 @@
-    function mypop([array]){
-    
-
-    }
