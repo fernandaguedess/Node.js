@@ -11,6 +11,5 @@ console.log(volume())
 //console.log(process.argv[2])*/
 
 function soma(num1,num2){
-    s = num1+num2
-    return s;
+    return num1+num2;
 }
