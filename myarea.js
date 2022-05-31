@@ -1,4 +1,4 @@
-function volume(height,width,depth){
+/*function volume(height,width,depth){
     height = process.argv[2]
     width = process.argv[3]
     depth = process.argv[4]
@@ -8,4 +8,9 @@ function volume(height,width,depth){
 }
 
 console.log(volume())
-//console.log(process.argv[2])
+//console.log(process.argv[2])*/
+
+function soma(num1,num2){
+    s = num1+num2
+    return s;
+}
