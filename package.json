@@ -1,7 +1,9 @@
 {
   "dependencies": {
+    "extenso": "^2.0.1",
     "numero-por-extenso": "^1.0.8",
     "passport": "^0.6.0",
+    "roman-numbers": "^1.0.2",
     "rootpath": "^0.1.2"
   },
   "scripts": {
