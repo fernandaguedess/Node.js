@@ -1,4 +1,4 @@
-/*function volume(height,width,depth){
+function volume(height,width,depth){
     height = process.argv[2]
     width = process.argv[3]
     depth = process.argv[4]
