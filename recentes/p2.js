@@ -1,6 +1,6 @@
 //const { toWord } = require("./projeto")
 
-require(rootpath)()
+require('rootpath')()
 
 const main = require('./projeto')
 const input = process.argv[2]

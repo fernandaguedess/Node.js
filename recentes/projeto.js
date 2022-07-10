@@ -1,4 +1,4 @@
-function toWord(input)
+function toWord(input){
 
 const nums = {
   'zero' : 0,
@@ -7,7 +7,9 @@ const nums = {
   'três' : 3
 }
 
-const exi = input.indexOf(Object.keys) //checa se o que foi digitado existe no array mãe e retorna o index do valor correspondente;
+const exi = input.indexOf(Object.keys(nums)) //checa se o que foi digitado existe no obj mãe e retorna o index do valor correspondente;
+  if (exi == 0) 
+    console.log("Valor inválido!")
 return Object.values(nums)[exi] //pesquisa o indexof nos values e retorna ele
-
-module.exports = { toWord}
+}
+module.exports = {toWord}
