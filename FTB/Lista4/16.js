@@ -10,7 +10,7 @@ function proper_name(full_name)
 {
 	const result = []
 	const names = full_name.toLowerCase().split(" ");
-    }
+    
     /*//Funcionando ok  hehe :)
 	//o fullname agr é dividido de acordo com os seus espaços
 	//se tornando um array onde cada índice é uma parte do nome, respectivamente.
@@ -39,4 +39,4 @@ return result.join(" ");
 const name = process.argv.slice(2).join(" ")
 console.log(`Nome original: ${name}`);
 console.log(`Nome embelezado: ${proper_name(name)}`);*/
-return names;
+return names;}
