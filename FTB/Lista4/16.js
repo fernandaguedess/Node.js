@@ -5,13 +5,11 @@ Se der erro, qual a alteração mais simples que você consegue imaginar para fa
 */
 
 
-function proper_name(full_name)
+function proper_name(full_name=process.argv)
 //funçao declarada e seu argumento, ok
 {
 	const result = []
 	const names = full_name.toLowerCase().split(" ");
-    
-    /*//Funcionando ok  hehe :)
 	//o fullname agr é dividido de acordo com os seus espaços
 	//se tornando um array onde cada índice é uma parte do nome, respectivamente.
 	for (let name of names) {
@@ -21,6 +19,7 @@ function proper_name(full_name)
 		case 'da':
 		case 'dos':
 		case 'das':
+		case '':// aqui só funciona se n tiver nenhum espaço
 		 break;
 		 default:
 		//[]name e slice funcionam em strings também! (:
@@ -38,5 +37,4 @@ return result.join(" ");
 }
 const name = process.argv.slice(2).join(" ")
 console.log(`Nome original: ${name}`);
-console.log(`Nome embelezado: ${proper_name(name)}`);*/
-return names;}
+console.log(`Nome embelezado: ${proper_name(name)}`);
